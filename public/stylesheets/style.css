@@ -1,0 +1,158 @@
+body {
+  font-family: "Lora";
+  text-align: justify;
+  width: 400px;
+  margin: auto;
+}
+
+.names {
+  font-size: 45px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.3em;
+  border-bottom: 2px solid #000;
+}
+
+.names-repeat {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0.3em;
+}
+
+.vows, .invite, .yum {
+   text-align: center;
+   margin: 0.2em;
+}
+
+.invite {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 2px solid #000;
+}
+
+.date {
+  float: left;
+  width: 34%;
+  margin: 0;
+  padding-top: 1em;
+  text-align: center;
+  font-size: 1.1rem;
+  border-right: 1px solid;
+}
+
+.date-wo-day {
+  display: block;
+  width: 100%;
+  font-family: "Montserrat";
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  font-size: 1.2rem;
+}
+
+.location {
+  margin: 0;
+  width: 65%;
+  float: right;
+  text-align: center;
+  border-left: 1px solid;
+  padding-top: 1.35em;
+  padding-bottom: 0.5em;
+}
+
+.time {
+  display: block;
+  font-family: "Montserrat";
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  font-size: 0.9rem;
+}
+
+.date-and-time {
+  border-bottom: 2px solid #000;
+  padding-bottom: 1.1em;
+  margin-bottom: 1.1em;
+}
+
+.yum {
+  display: block;
+  font-size: 0.8rem;
+}
+
+.date-and-time-container {
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+form {
+  text-align: center;
+}
+
+.for, .there, .person {
+  text-align: left;
+  padding-left: 100px;
+}
+
+input[type=text] {
+  margin-left: 1em;
+  padding: 2px;
+  border: 0;
+  border-bottom: 2px solid;
+  font-family: "Montserrat";
+  font-size: 16px;
+  width: 200px;
+}
+
+input[type=submit] {
+  border: 2px solid;
+  background: 0;
+  padding: 5px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  margin-left: 300px;
+}
+
+input[type=checkbox], input[type=radio] {
+  visibility: hidden;
+}
+.checkbox, .radio {
+	position: relative;
+  height: 30px;
+  margin: auto;
+  width: 120px;
+  text-align: left;
+}
+label {
+	cursor: pointer;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 0;
+  left: 0;
+	border: 2px solid #000;
+}
+.checkbox label:after, .radio label:after {
+	opacity: 0.0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 2px;
+	left: 2px;
+	border: 3px solid #000;
+	border-top: none;
+	border-right: none;
+
+	transform: rotate(-45deg);
+}
+.checkbox label:hover::after, .radio label:hover::after {
+	opacity: 0.5;
+}
+.checkbox input[type=checkbox]:checked + label:after, .radio input[type=radio]:checked + label:after {
+	opacity: 1.0;
+}
