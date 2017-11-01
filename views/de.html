@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:300,400" rel="stylesheet">
+    <link href="./stylesheets/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="names">Meredith & Veit</h1>
+
+    <h3 class="names-repeat">Meredith Alongi + Veit Heller</h3>
+    <p class="vows">heiraten</p>
+    <p class="invite">und möchten dich dabei haben!</p>
+
+    <div class="date-and-time">
+      <div class="date-and-time-container">
+        <p class="date">Freitag<span class="date-wo-day">der 13. April</span> 2018</p>
+        <p class="location">Rathaus Köpenick<span class="time">um elf Uhr morgens</span> in Berlin-Köpenick
+
+          <!--<span class="yum">P.S. Food and drinks are on the house.</span>-->
+        </p>
+      </div>
+    </div>
+
+    <form action="./de" method="POST">
+      <div class="person">Ich bin <input type="text" name="who"></div>
+      <div class="there">Ich komme
+        <div class="radio">
+          <input type="radio" name="there" value="1" id="alone" checked="checked"><label for="alone"></label> alleine
+        </div>
+        <div class="radio">
+          <input type="radio" name="there" value="2" id="plus1"><label for="plus1"></label> Mit jemandem
+        </div>
+      </div>
+      <div class="for">Zur
+        <div class="checkbox">
+          <input type="checkbox" name="ceremony" id="ceremony"><label for="ceremony"></label> Zeremonie
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="toast" id="toast"><label for="toast"></label> Umtrunk
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="dinner" id="dinner"><label for="dinner"></label> Abendessen
+        </div>
+      </div>
+      <input type="submit" value="Absenden">
+    </form>
+  </body>
+</html>
