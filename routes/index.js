@@ -6,7 +6,11 @@ router.get('/', function(req, res, next) {
   res.render('index.html');
 });
 
-router.post('/', function(req, res, next) {
+router.get('/en', function(req, res, next) {
+  res.render('en.html');
+});
+
+router.post('/en', function(req, res, next) {
   fs.appendFile("./people", JSON.stringify(req.body));
   res.render('success.html');
 });
