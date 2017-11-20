@@ -1,3 +1,6 @@
+# Allgemeines Schreiben zum Kennenlernern
+#### 6. November 2017
+
 Während des Auslandsjahrs von Frau Alongi lernten wir uns in Berlin kennen. Wir
 begannen eine Beziehung, die sich auch über das halbe Jahr, dass Frau Alongi
 wieder in den USA verbrachte, erstreckte. Als sie nach dem Abschluss ihres
